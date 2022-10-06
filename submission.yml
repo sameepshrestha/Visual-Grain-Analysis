@@ -1,0 +1,11 @@
+# Unearthed Submission Configuration
+#
+# This file is for future configuration capability and is required by the
+# Unearthed submission pipeline. Please DO NOT modify.
+challenge: visual-grain-analysis
+service:
+  sagemaker:
+    instance_type_training: ml.g4dn.xlarge
+    instance_type_processor: ml.c4.xlarge
+    instance_type_inference: ml.p2.xlarge
+    framework: TensorFlow

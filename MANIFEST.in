@@ -1,0 +1,8 @@
+# this line adds the requirements.txt to the Unearthed submission
+include requirements.txt inference-requirements.txt README.md
+
+# to add additional source code to your submission you must include it here
+# include your_extra_module.py
+
+# and remove the MANIFEST.in itself from the submission
+exclude MANIFEST.in
